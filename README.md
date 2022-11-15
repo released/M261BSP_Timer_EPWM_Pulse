@@ -3,9 +3,9 @@
 
 update @ 2022/11/15
 
-1. initial EINT0 (PB.5) , pulse output (EPWM0 CH5 ,PA.5)
+1. initial EINT0 (PB.5) , pulse output (EPWM0 CH0 ,PA.5)
 
-2. scenario : after EINT0 (PB.5) trigger with rising , generate pulse output : EPWM0 CH5 process and stop at IRQ 
+2. scenario : after EINT0 (PB.5) trigger with rising , generate pulse output : EPWM0 CH0 process and stop at IRQ 
 
 	- Trigger by raising edge of the external interrupt  
 
