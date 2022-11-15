@@ -514,7 +514,6 @@ int main()
 	TIMER1_Init();
     // SysTick_enable(1000);
 
-    // TIMER3_Pulse_Init();
     EINT0_Init();
 
     Emulate_EXT_IO_Init();
